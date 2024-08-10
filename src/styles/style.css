@@ -1,0 +1,100 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  box-sizing: none;
+  border: none;
+}
+
+header {
+  display: flex;
+}
+
+.logo_conatainer {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 50px;
+  margin-left: 110px;
+  margin-right: 117px;
+  font-style: rubik;
+  font-size: 20px;
+}
+
+.logo_conatainer h1 {
+    font-weight: 500;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 50px;
+  gap: 40px;
+  margin-right: 120px   ;
+}
+
+nav a {
+  color: #4f5665;
+  font-size: 16px;
+  font-style: "Rubik";
+}
+
+.acess_container {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  gap: 30px;
+  background: none;
+}
+button{
+    background: none;
+}
+
+.acess_container :last-child {
+  border-radius: 50px;
+  border: 1px solid #f53855;
+  width: 150px;
+  height: 45px;
+  color: red;
+  background: none; 
+}
+
+.About_Container{
+    display: flex;
+    justify-content: center;
+    margin-top: 89px;
+}
+
+.section_content{
+   width: 470px;
+   font-style: arial;
+   margin-top: 28px;
+}
+
+.section_content h2{
+font-size: 45px;
+font-weight: 500;
+}
+
+.section_content p{
+font-size: 15px;
+font-weight: 400;
+margin-top: 30px;
+}
+
+.section_content button{
+font-size: 15px;
+height: 60px;
+width: 250px;
+margin-top: 50px;
+border-radius: 19px;
+background-color: #F53838;
+color: white;
+}
+
+.mimg {
+    width: 611px;
+    height: 382px;
+}
